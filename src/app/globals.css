@@ -259,7 +259,6 @@
 	@apply text-neutral-300/85 text-sm md:text-base text-pretty;
 }
 
-/* Button Components */
 .btn {
 	@apply relative px-1 py-4 text-sm text-center rounded-full font-extralight bg-primary w-[12rem] cursor-pointer overflow-hidden;
 }
