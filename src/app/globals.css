@@ -252,11 +252,11 @@
 }
 
 .headtext {
-	@apply mt-2 mb-2 text-xl text-neutral-200;
+	@apply mt-2 mb-2 text-xl text-foreground font-medium;
 }
 
 .subtext {
-	@apply text-neutral-300/85 text-sm md:text-base text-pretty;
+	@apply text-foreground/80 text-sm md:text-base text-pretty;
 }
 
 .btn {
@@ -281,7 +281,7 @@
 }
 
 .grid-default-color {
-	@apply p-6 bg-gradient-to-b from-storm to-indigo rounded-xl;
+	@apply p-2 sm:p-4 md:p-6 bg-[#E7E7E780] border border-muted-foreground/15 rounded-sm;
 }
 
 .grid-special-color {

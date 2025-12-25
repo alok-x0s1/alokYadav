@@ -27,9 +27,9 @@ const socials = [
 
 export default function Contact() {
 	return (
-		<div className="bg-linear-to-tl from-background via-foreground/10 to-background">
+		<div className="bg-background flex flex-col min-h-screen">
 			<Navigation current="contact" />
-			<div className="container flex flex-col px-4 md:px-5 pt-24 gap-6">
+			<div className="container flex flex-1 h-full flex-col px-4 md:px-5 pt-24 gap-6">
 				<h2 className="text-heading text-start mt-2">
 					Contact <span className="text-purple">Me</span>
 				</h2>
@@ -49,7 +49,7 @@ export default function Contact() {
 									{s.icon}
 								</span>{" "}
 								<div className="z-10 flex flex-col items-center">
-									<span className="text-xl font-medium duration-150 xl:text-3xl text-foreground/90 group-hover:text-foreground font-display">
+									<span className="text-xl font-medium duration-150 xl:text-2xl text-foreground/90 group-hover:text-foreground font-display">
 										{s.handle}
 									</span>
 									<span className="mt-3 text-sm text-center font-semibold duration-1000 text-foreground/80 group-hover:text-foreground/90">
