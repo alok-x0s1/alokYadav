@@ -10,11 +10,11 @@ const Technologies = () => {
 				The Secret <span className="text-purple">Sauce</span>
 			</h2>
 
-			<div className="flex flex-wrap gap-4 md:gap-6 justify-center pt-8 max-w-6xl mx-auto">
+			<div className="flex flex-wrap gap-2 sm:gap-4 md:gap-6 justify-center pt-8 max-w-5xl mx-auto">
 				{skills.map((name) => (
 					<div
 						key={name}
-						className="group flex items-center w-fit rounded-sm border border-muted-foreground/10 transition-all duration-500 ease-out overflow-hidden cursor-pointer backdrop-blur-sm"
+						className="group flex items-center w-fit rounded-xs border border-muted-foreground/10 transition-all duration-500 ease-out overflow-hidden cursor-pointer backdrop-blur-sm"
 					>
 						<div className="flex items-center justify-center gap-2 p-2 w-fit">
 							<Image
@@ -26,9 +26,9 @@ const Technologies = () => {
 								group-hover:-rotate-15 group-hover:scale-105"
 							/>
 
-							<h3 className="text-sm md:block hidden capitalize">
+							{/* <h3 className="text-sm md:block hidden capitalize">
 								{name.replace(/-/g, " ")}
-							</h3>
+							</h3> */}
 						</div>
 					</div>
 				))}
