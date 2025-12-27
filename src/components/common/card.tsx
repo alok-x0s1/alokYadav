@@ -25,7 +25,7 @@ const Card = ({
 		/>
 	) : (
 		<motion.div
-			className="absolute px-1 py-4 text-xl text-center rounded-full ring-3 ring-[#555555] font-extralight bg-[#CFCFCF] w-48 cursor-grab text-foreground"
+			className="absolute px-1 py-4 text-xl text-center rounded-xs ring-3 ring-[#555555] font-extralight bg-[#CFCFCF] w-48 cursor-grab text-foreground"
 			style={style}
 			whileHover={{ scale: 1.05 }}
 			drag

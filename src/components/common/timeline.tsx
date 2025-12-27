@@ -1,6 +1,6 @@
 "use client";
 
-import type { Experience } from "@/constants";
+import type { Experience } from "@/utils/types";
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import CompanyHoverCard from "../base/company-hover-card";
@@ -37,8 +37,8 @@ export const Timeline = ({ data }: { data: Experience[] }) => {
 						className="flex justify-start pt-10 md:pt-14 md:gap-10"
 					>
 						<div className="sticky z-40 flex flex-col items-center self-start max-w-xs md:flex-row top-40 lg:max-w-sm md:w-full">
-							<div className="absolute flex items-center justify-center w-8 h-8 rounded-full left-0 bg-purple top-2">
-								<div className="w-4 h-4 p-2 rounded-full bg-background border border-muted-foreground/50" />
+							<div className="absolute flex items-center justify-center w-8 h-8 rounded-xs left-0 bg-purple top-2">
+								<div className="w-4 h-4 p-2 rounded-xs bg-background border border-muted-foreground/50" />
 							</div>
 							<div className="flex-col hidden gap-2 text-xl font-bold md:flex md:pl-20 md:text-4xl">
 								<h3 className="text-3xl text-foreground">

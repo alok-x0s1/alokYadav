@@ -104,7 +104,7 @@ export function Globe({
 	return (
 		<div
 			className={twMerge(
-				"mx-auto aspect-square w-full max-w-[600px]",
+				"mx-auto aspect-square w-full max-w-150",
 				className
 			)}
 		>

@@ -8,7 +8,7 @@ import {
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { Link2 } from "lucide-react";
 import { Badge } from "../ui/badge";
-import type { Experience } from "@/constants";
+import type { Experience } from "@/utils/types";
 
 const CompanyHoverCard = ({ item }: { item: Experience }) => {
 	return (
@@ -16,7 +16,7 @@ const CompanyHoverCard = ({ item }: { item: Experience }) => {
 			<HoverCardTrigger className="text-xl text-foreground/85">
 				@{item.company.title}
 			</HoverCardTrigger>
-			<HoverCardContent className="w-80 flex gap-1.5 flex-col">
+			<HoverCardContent className="w-82 flex gap-1.5 flex-col">
 				<div className="flex gap-2 items-start">
 					<Avatar>
 						<AvatarImage src={item.company.image} />
@@ -25,7 +25,7 @@ const CompanyHoverCard = ({ item }: { item: Experience }) => {
 						</AvatarFallback>
 					</Avatar>
 
-					<div className="flex flex-col w-full gap-0">
+					<div className="flex flex-col w-full gap-0.5">
 						<h4 className="text-sm flex justify-between w-full font-semibold">
 							{item.company.name}{" "}
 							<div

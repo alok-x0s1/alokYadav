@@ -45,7 +45,7 @@ export default function Contact() {
 									className="absolute w-px h-2/3 bg-linear-to-b from-foreground via-foreground/50 to-transparent"
 									aria-hidden="true"
 								/>
-								<span className="relative z-10 flex items-center justify-center w-12 h-12 text-sm duration-1000 border rounded-full text-background/85 group-hover:text-background border-zinc-500 bg-foreground group-hover:border-zinc-200 drop-shadow-orange">
+								<span className="relative z-10 flex items-center justify-center w-12 h-12 text-sm duration-1000 border rounded-xs text-background/85 group-hover:text-background border-zinc-500 bg-foreground group-hover:border-zinc-200 drop-shadow-orange">
 									{s.icon}
 								</span>{" "}
 								<div className="z-10 flex flex-col items-center">

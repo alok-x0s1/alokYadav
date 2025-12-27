@@ -219,6 +219,9 @@
 	body {
 		@apply bg-background text-foreground font-funnel;
 	}
+	p {
+		@apply cursor-default;
+	}
 }
 
 ::-webkit-scrollbar {
@@ -281,7 +284,7 @@
 }
 
 .grid-default-color {
-	@apply p-2 sm:p-4 md:p-6 bg-[#E7E7E780] border border-muted-foreground/15 rounded-sm;
+	@apply p-2 sm:p-4 md:p-6 bg-[#E7E7E780] border border-muted-foreground/15 rounded-xs;
 }
 
 .grid-special-color {
