@@ -6,7 +6,7 @@ import Navbar from "@/components/base/nav-home";
 
 export default async function Home() {
 	const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/visit`, {
-		cache: "force-cache",
+		cache: "no-store",
 	});
 
 	const { count } = await res.json();

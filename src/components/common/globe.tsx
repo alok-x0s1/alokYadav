@@ -1,27 +1,27 @@
 "use client";
 
+import type { COBEOptions } from "cobe";
 import createGlobe from "cobe";
 import { useMotionValue, useSpring } from "motion/react";
 import { useEffect, useRef } from "react";
-
 import { twMerge } from "tailwind-merge";
 
 const MOVEMENT_DAMPING = 1400;
 
-const GLOBE_CONFIG = {
+const GLOBE_CONFIG: COBEOptions = {
 	width: 800,
 	height: 800,
-	onRender: () => {},
 	devicePixelRatio: 2,
 	phi: 0,
 	theta: 0.3,
 	dark: 1,
 	diffuse: 0.4,
 	mapSamples: 16000,
+	onRender: () => {},
 	mapBrightness: 1.2,
-	baseColor: [1, 1, 1],
-	markerColor: [1, 1, 1],
-	glowColor: [1, 1, 1],
+	baseColor: [1, 1, 1] as [number, number, number],
+	markerColor: [1, 1, 1] as [number, number, number],
+	glowColor: [1, 1, 1] as [number, number, number],
 	markers: [
 		{ location: [14.5995, 120.9842], size: 0.03 },
 		{ location: [19.076, 72.8777], size: 0.1 },
@@ -43,11 +43,12 @@ export function Globe({
 	className?: string;
 	config?: typeof GLOBE_CONFIG;
 }) {
-	let phi = 0;
-	let width = 0;
-	const canvasRef = useRef(null);
-	const pointerInteracting = useRef(null);
+	const canvasRef = useRef<HTMLCanvasElement | null>(null);
+	const pointerInteracting = useRef<number | null>(null);
 	const pointerInteractionMovement = useRef(0);
+
+	const phi = useRef(0);
+	const width = useRef(0);
 
 	const r = useMotionValue(0);
 	const rs = useSpring(r, {
@@ -56,7 +57,7 @@ export function Globe({
 		stiffness: 100,
 	});
 
-	const updatePointerInteraction = (value) => {
+	const updatePointerInteraction = (value: number | null) => {
 		pointerInteracting.current = value;
 		if (canvasRef.current) {
 			canvasRef.current.style.cursor =
@@ -64,7 +65,7 @@ export function Globe({
 		}
 	};
 
-	const updateMovement = (clientX) => {
+	const updateMovement = (clientX: number) => {
 		if (pointerInteracting.current !== null) {
 			const delta = clientX - pointerInteracting.current;
 			pointerInteractionMovement.current = delta;
@@ -73,9 +74,11 @@ export function Globe({
 	};
 
 	useEffect(() => {
+		if (!canvasRef.current) return;
+
 		const onResize = () => {
 			if (canvasRef.current) {
-				width = canvasRef.current.offsetWidth;
+				width.current = canvasRef.current.offsetWidth;
 			}
 		};
 
@@ -84,17 +87,20 @@ export function Globe({
 
 		const globe = createGlobe(canvasRef.current, {
 			...config,
-			width: width * 2,
-			height: width * 2,
+			width: width.current * 2,
+			height: width.current * 2,
 			onRender: (state) => {
-				if (!pointerInteracting.current) phi += 0.005;
-				state.phi = phi + rs.get();
-				state.width = width * 2;
-				state.height = width * 2;
+				if (!pointerInteracting.current) phi.current += 0.005;
+				state.phi = phi.current + rs.get();
+				state.width = width.current * 2;
+				state.height = width.current * 2;
 			},
 		});
 
-		setTimeout(() => (canvasRef.current.style.opacity = "1"), 0);
+		setTimeout(() => {
+			canvasRef.current?.style.setProperty("opacity", "1");
+		}, 0);
+
 		return () => {
 			globe.destroy();
 			window.removeEventListener("resize", onResize);
@@ -104,19 +110,14 @@ export function Globe({
 	return (
 		<div
 			className={twMerge(
-				"mx-auto aspect-square w-full max-w-150",
+				"mx-auto aspect-square w-full max-w-[600px]",
 				className
 			)}
 		>
 			<canvas
-				className={twMerge(
-					"size-120 opacity-0 transition-opacity duration-500 contain-[layout_paint_size]"
-				)}
 				ref={canvasRef}
-				onPointerDown={(e) => {
-					pointerInteracting.current = e.clientX;
-					updatePointerInteraction(e.clientX);
-				}}
+				className="size-120 opacity-0 transition-opacity duration-500 contain-[layout_paint_size]"
+				onPointerDown={(e) => updatePointerInteraction(e.clientX)}
 				onPointerUp={() => updatePointerInteraction(null)}
 				onPointerOut={() => updatePointerInteraction(null)}
 				onMouseMove={(e) => updateMovement(e.clientX)}
