@@ -51,8 +51,8 @@ const Projects = () => {
 			className="relative projects pb-20"
 			id="projects"
 		>
-			<div className="flex justify-between items-center">
-				<h2 className="text-heading text-start mt-2">
+			<div className="flex justify-between items-center mt-2">
+				<h2 className="text-heading text-start">
 					Featured <span className="text-purple">Projects</span>
 				</h2>
 

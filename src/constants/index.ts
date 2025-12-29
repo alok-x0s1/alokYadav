@@ -46,7 +46,7 @@ export const featuredProjects = [
 		title: "ShrinkIt",
 		description:
 			"Developed a modern URL shortening application with advanced features including password protection, QR code generation, and link management. Implemented user authentication using built-in middleware and cookies. Utilized MongoDB with Mongoose for efficient data handling.",
-		githubLink: "https://github.com/alok-x0s1/ShrinkIt",
+		githubLink: "https://github.com/alok-x0s1/shrink-it",
 		liveLink: "https://shuck.vercel.app",
 		date: "2024-09-16",
 		image: "/assets/projects/shrinkit.png",
@@ -93,7 +93,7 @@ export const featuredProjects = [
 		title: "E-manage",
 		description:
 			"A full stack event management application built, frontend with react, backned using express, mongodb, and integrated real time event attendences and event creation using socket.io",
-		githubLink: "https://github.com/alok-x0s1/E-manage",
+		githubLink: "https://github.com/alok-x0s1/e-manage",
 		liveLink: "https://emanage.vercel.app",
 		date: "2025-02-10",
 		image: "/assets/projects/emanage.png",
@@ -140,7 +140,7 @@ export const featuredProjects = [
 		title: "Arise",
 		description:
 			"A React-based e-commerce platform that offers an immersive shopping experience. The app uses Firebase for the backend, handling user authentication, data storage, and real-time updates. Stripe is integrated for secure payment processing, with Firebase Cloud Functions generating clientSecrets.",
-		githubLink: "https://github.com/alok-x0s1/Arise",
+		githubLink: "https://github.com/alok-x0s1/a-rise",
 		liveLink: "https://a-rise-sigma.vercel.app",
 		date: "2024-08-01",
 		image: "/assets/projects/arise.png",
@@ -190,7 +190,7 @@ export const fullStackProjects = [
 		title: "Flickr",
 		description:
 			"Flickr is an anonymous feedback app built with Next.js. Users can manage incoming messages through a dashboard, accepting or declining feedback. Share your profile link to receive anonymous messages. The app uses Tailwind CSS, Radix UI, NextAuth, and OpenAI for a secure and seamless experience.",
-		githubLink: "https://github.com/alok-x0s1/Flickr",
+		githubLink: "https://github.com/alok-x0s1/flickr",
 		liveLink: "https://flickrrr.vercel.app",
 		date: "2024-08-17",
 		image: "/assets/projects/flickr.png",
@@ -238,7 +238,7 @@ export const fullStackProjects = [
 		title: "Sumera",
 		description:
 			"A comprehensive finance management application designed to help users gain control over their finances. This project is designed to help you manage your finances effectively by tracking your expenses, setting budgets, and analyzing your spending habits.",
-		githubLink: "https://github.com/alok-x0s1/Sumera",
+		githubLink: "https://github.com/alok-x0s1/sumera",
 		liveLink: "https://sumera.vercel.app",
 		date: "2024-09-27",
 		image: "/assets/projects/sumera.png",
@@ -285,7 +285,7 @@ export const fullStackProjects = [
 		title: "Guidly",
 		description:
 			"A web app to connect mentors and mentees based on skills and interests. Features include profile creation, matchmaking, connection management, and notifications.",
-		githubLink: "https://github.com/alok-x0s1/Guidly",
+		githubLink: "https://github.com/alok-x0s1/guidly",
 		liveLink: "https://guidly.vercel.app",
 		date: "2024-12-12",
 		image: "/assets/projects/guidly.png",
@@ -332,7 +332,7 @@ export const fullStackProjects = [
 		title: "Quizzo",
 		description:
 			"A Quiz Management System where teachers can log in, create, edit, and delete quizzes, frontend built using React, and backend with Express, and Prisma.",
-		githubLink: "https://github.com/alok-x0s1/Quizzo",
+		githubLink: "https://github.com/alok-x0s1/quizzo",
 		liveLink: "https://quizzo-liart.vercel.app",
 		date: "2025-02-14",
 		image: "/assets/projects/quizzo.png",
@@ -419,7 +419,7 @@ export const frontendProjects = [
 		title: "Recipe Wiz",
 		description:
 			"A dynamic and responsive recipe discovery app allowing users to search, filter, and explore a wide variety of recipes based on cuisine, meal type, time, and difficulty.",
-		githubLink: "https://github.com/alok-x0s1/Recipe-Wiz",
+		githubLink: "https://github.com/alok-x0s1/recipe-wiz",
 		liveLink: "https://recipewiz.vercel.app",
 		date: "2024-11-07",
 		image: "/assets/projects/recipe-wiz.png",
@@ -456,7 +456,7 @@ export const frontendProjects = [
 		title: "Playlist Pro",
 		description:
 			"PlaylistPro is a solution for effortless playlist management. Input a playlist link to calculate total duration and video count. Customize filters for watching speeds from 0.25x to 2x and view video demos with thumbnails, durations, titles, and YouTube links.",
-		githubLink: "https://github.com/alok-x0s1/PlaylistPro",
+		githubLink: "https://github.com/alok-x0s1/playlist-pro",
 		liveLink: "https://playlistpro-alok.vercel.app",
 		date: "2024-05-25",
 		image: "/assets/projects/playlist-pro.png",
@@ -488,7 +488,7 @@ export const frontendProjects = [
 		title: "Lock Crafter",
 		description:
 			"Introducing a sleek React Password Generator leveraging useRef, useEffect, and useCallback hooks. It automatically generates strong passwords, updates in real-time, and offers a quick copy feature for seamless integration.",
-		githubLink: "https://github.com/alok-x0s1/Lock-Crafter",
+		githubLink: "https://github.com/alok-x0s1/lock-crafter",
 		liveLink: "https://lockcrafter.vercel.app",
 		date: "2024-05-08",
 		image: "/assets/projects/lock-crafter.png",
@@ -523,7 +523,7 @@ export const javascriptProjects = [
 		title: "Quote Generator",
 		description:
 			"Random Quote Generator website! Powered by JavaScript, it offers a range of features to keep you inspired. With just a click, you can copy quotes to your clipboard, listen to them read aloud, or share them on Twitter. The 'Inspire Me' button lets you generate a new quote whenever you need a boost.",
-		githubLink: "https://github.com/alok-x0s1/Quote-Generator",
+		githubLink: "https://github.com/alok-x0s1/quote-generator",
 		liveLink: "https://quote-generator-alok.vercel.app",
 		date: "2024-05-15",
 		image: "/assets/projects/quote-generator.png",
@@ -555,7 +555,7 @@ export const javascriptProjects = [
 		title: "QrSwift",
 		description:
 			"This project lets you create QR codes using a web page. You enter some text or a URL, and the QR code is generated instantly. The project uses HTML for the structure of the page, CSS for styling it, and JavaScript to handle the QR code creation.",
-		githubLink: "https://github.com/alok-x0s1/QrSwift",
+		githubLink: "https://github.com/alok-x0s1/qr-swift",
 		liveLink: "https://qrswift.vercel.app",
 		date: "2023-11-18",
 		image: "/assets/projects/qr-swift.png",
@@ -590,7 +590,7 @@ export const backendProjects = [
 		title: "EchoTube",
 		description:
 			"It mimics YouTube’s core functionalities, including user authentication, video management, likes, comments, and tweets. The app utilizes Node.js, Express.js, and MongoDB for efficient data handling. The project also includes cloud storage for video uploads and image thumbnails.",
-		githubLink: "https://github.com/alok-x0s1/EchoTube",
+		githubLink: "https://github.com/alok-x0s1/echo-tube",
 		date: "2024-07-29",
 		tags: [
 			{
@@ -630,7 +630,7 @@ export const backendProjects = [
 		title: "FileShare Hub",
 		description:
 			"A seamless file sharing platform built with Node.js, Express, MongoDB, Multer, EJS, and Tailwind CSS. Users can upload files up to 100MB, receive a unique download link, and share it with friends or colleagues for easy access and download.",
-		githubLink: "https://github.com/alok-x0s1/FileShare-Hub",
+		githubLink: "https://github.com/alok-x0s1/fileshare-hub",
 		date: "2024-06-26",
 		tags: [
 			{
@@ -670,7 +670,7 @@ export const backendProjects = [
 		title: "BookBay",
 		description:
 			"A Dockerized Express.js and MongoDB application with user authentication, book management, shopping cart, and payment features. Admins manage books/users, and users browse and purchase books.",
-		githubLink: "https://github.com/alok-x0s1/Book-Bay",
+		githubLink: "https://github.com/alok-x0s1/book-bay",
 		date: "2024-10-24",
 		tags: [
 			{
@@ -718,7 +718,7 @@ export const abandonedProjects = [
 		title: "MoneyMap",
 		description:
 			"A simple web application for tracking personal finances, visualizing transactions, and managing budgets. Here, you can first specify your budgets and then add transactions to them.",
-		githubLink: "https://github.com/alok-x0s1/MoneyMap",
+		githubLink: "https://github.com/alok-x0s1/money-map",
 		liveLink: "https://moneymap-alok.vercel.app",
 		date: "2025-02-17",
 	},
@@ -727,7 +727,7 @@ export const abandonedProjects = [
 		title: "EmageXpert",
 		description:
 			"EmageXpert is an intuitive image editor that allows users to apply filters, add text overlays with customizable colors and backgrounds, and draw shapes like rectangles, circles, and lines. Built with modern web technologies.",
-		githubLink: "https://github.com/alok-x0s1/EmageXpert",
+		githubLink: "https://github.com/alok-x0s1/emageXpert",
 		liveLink: "https://emagexpert.vercel.app",
 		date: "2024-10-19",
 	},
@@ -744,7 +744,7 @@ export const abandonedProjects = [
 		title: "Harmony Hub",
 		description:
 			"Harmony Hub is a cutting-edge music academy app built with Next.js. It transforms music education by providing an intuitive platform for students, teachers, and administrators. With features for interactive lessons, performance tracking, and streamlined administration, Harmony Hub enhances the learning experience and simplifies school management.",
-		githubLink: "https://github.com/alok-x0s1/Harmony-Hub",
+		githubLink: "https://github.com/alok-x0s1/harmony-hub",
 		liveLink: "https://harmony-hub-alok.vercel.app",
 		date: "2024-05-31",
 	},
@@ -753,7 +753,7 @@ export const abandonedProjects = [
 		title: "Chat Nexus",
 		description:
 			"A real-time chatting application built using WebSocket. This project is divided into two main sections: the frontend and the backend. The frontend provides a user-friendly interface for creating chat rooms and sending messages, while the backend handles the real-time communication between multiple users.",
-		githubLink: "https://github.com/alok-x0s1/Learning-ws",
+		githubLink: "https://github.com/alok-x0s1/learning-ws",
 		date: "2024-10-08",
 	},
 	{
@@ -761,7 +761,7 @@ export const abandonedProjects = [
 		title: "TodoFy",
 		description:
 			"A full-featured To-Do app built with Node.js, Express, MongoDB, React, and Tailwind CSS. Includes task creation, updates, deletions, completion marking, and user authentication.",
-		githubLink: "https://github.com/alok-x0s1/TodoFy",
+		githubLink: "https://github.com/alok-x0s1/todo-fy",
 		date: "2024-07-02",
 	},
 	{
@@ -769,7 +769,7 @@ export const abandonedProjects = [
 		title: "Backend API for Task management",
 		description:
 			"A simple yet powerful backend for a task management system, built using Express, Prisma, PostgreSQL, and TypeScript. This project allows users to manage projects, assign tasks, and track progress, while ensuring proper role-based access control.",
-		githubLink: "https://github.com/alok-x0s1/Learning-prisma",
+		githubLink: "https://github.com/alok-x0s1/learning-prisma",
 		date: "2024-10-12",
 	},
 	{
@@ -777,7 +777,7 @@ export const abandonedProjects = [
 		title: "Currency Convertor",
 		description:
 			"Discover a sleek currency converter powered by Vite, boasting custom hooks for streamlined functionality. With an extensive array of currency options and real-time updates, it ensures accurate conversions on any device. Simplify international transactions with ease.",
-		githubLink: "https://github.com/alok-x0s1/Currency-Convertor",
+		githubLink: "https://github.com/alok-x0s1/currency-convertor",
 		liveLink: "https://currency-convertor-alok.vercel.app",
 		date: "2024-05-11",
 	},
@@ -786,7 +786,7 @@ export const abandonedProjects = [
 		title: "SmartDineMenu",
 		description:
 			"A frontend food ordering web application which is currently in development.",
-		githubLink: "https://github.com/alok-x0s1/SmartDineMenu",
+		githubLink: "https://github.com/alok-x0s1/smart-dine-menu",
 		liveLink: "https://smartdinemenu.vercel.app",
 		date: "2025-02-22",
 	},

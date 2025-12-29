@@ -61,7 +61,7 @@ const CopyEmailButton = () => {
 					</motion.p>
 				) : (
 					<motion.p
-						className="flex items-center justify-center gap-2"
+						className="flex items-center cursor-pointer justify-center gap-2"
 						key="copy"
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
