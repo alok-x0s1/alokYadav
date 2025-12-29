@@ -87,7 +87,7 @@ const AboutBento = () => {
 								top: "70%",
 								left: "25%",
 							}}
-							image="assets/logos/postgreSql.svg"
+							image="assets/logos/postgresql.svg"
 							containerRef={grid2Container}
 						/>
 						<Card

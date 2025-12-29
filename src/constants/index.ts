@@ -5,8 +5,8 @@ export const skills = [
 	"javascript",
 	"node-js",
 	"express-js",
-	"mongoDB",
-	"postgreSql",
+	"mongodb",
+	"postgresql",
 	"prisma",
 	"drizzle",
 	"docker",
@@ -69,7 +69,7 @@ export const featuredProjects = [
 			{
 				id: 4,
 				name: "MongoDB",
-				path: "/assets/logos/mongoDB.svg",
+				path: "/assets/logos/mongodb.svg",
 			},
 			{
 				id: 5,
@@ -266,7 +266,7 @@ export const fullStackProjects = [
 			{
 				id: 5,
 				name: "PostgreSql",
-				path: "/assets/logos/postgreSql.svg",
+				path: "/assets/logos/postgresql.svg",
 			},
 			{
 				id: 6,
@@ -318,7 +318,7 @@ export const fullStackProjects = [
 			{
 				id: 6,
 				name: "PostgreSql",
-				path: "/assets/logos/postgreSql.svg",
+				path: "/assets/logos/postgresql.svg",
 			},
 			{
 				id: 7,
@@ -365,7 +365,7 @@ export const fullStackProjects = [
 			{
 				id: 6,
 				name: "PostgreSql",
-				path: "/assets/logos/postgreSql.svg",
+				path: "/assets/logos/postgresql.svg",
 			},
 			{
 				id: 7,
