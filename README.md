@@ -1,4 +1,4 @@
-# Alok Yadav
+# alokYadav
 
 Welcome to my portfolio. This repository showcases the projects and skills I've developed as a web developer. Below, you'll find information about me, the technologies I use, and how to get in touch.
 
@@ -15,29 +15,29 @@ Hi, I'm a passionate web developer focused on creating scalable and impactful we
 
 ## Tech Stack
 
--   **Frontend:** Next.js, React, Tailwind CSS, HTML, CSS, JavaScript
--   **Backend:** Node.js, Express, Appwrite
--   **Database:** MongoDB, Firebase, Supabase
--   **Tools:** Postman, VS Code, GitHub, GitLab
+-   **Frontend:** Next.js, React.js, TypeScript, HTML/CSS, JavaScript
+-   **Backend:** Node.js, Express.js, Appwrite, Firebase
+-   **Database:** MongoDB, PostgreSQL, Redis, Supabase
+-   **Tools:** Git, Postman, Docker, GitHub, Tailwind CSS
 -   **Deployment:** Vercel, Netlify
 
 ## Projects
 
 Here are some of the projects featured in this portfolio:
 
-1. **PlayList Pro**: Designed to fetch and manage YouTube playlist data effortlessly.
+1. **Shrink-it**: A modern URL shortening application with advanced features including password protection, QR code generation, and link management.
 
-    - [GitHub Repository](https://github.com/alok-x0s1/PlaylistPro)
-    - [Live Demo](https://playlistpro-alok.vercel.app/)
+    - [GitHub Repository](https://github.com/alok-x0s1/shrink-it)
+    - [Live Demo](https://shuck.vercel.app/)
 
-2. **Harmony Hub**: Cutting-edge music academy school app built with Next.js.
+2. **Guidly**: A web app to connect mentors and mentees based on skills and interests.
 
-    - [GitHub Repository](https://github.com/alok-x0s1/Harmony-Hub)
-    - [Live Demo](https://harmony-hub-alok.vercel.app/)
+    - [GitHub Repository](https://github.com/alok-x0s1/guidly)
+    - [Live Demo](https://guidly.vercel.app/)
 
-3. **Password Generator**: Automatically generates strong passwords, updates in real-time.
-    - [GitHub Repository](https://github.com/alok-x0s1/Password-Generator)
-    - [Live Demo](https://password-generator-alok.vercel.app/)
+3. **Flickr**: Flickr is an anonymous feedback app built with Next.js. Users can manage incoming messages through a dashboard, accepting or declining feedback. Share your profile link to receive anonymous messages.
+    - [GitHub Repository](https://github.com/alok-x0s1/flickr)
+    - [Live Demo](https://flickrrr.vercel.app/)
 
 ## Getting Started
 
@@ -76,18 +76,14 @@ If you want to run this portfolio locally, follow these steps:
 
 If you have suggestions or improvements, feel free to create an issue or submit a pull request. Contributions are always welcome!
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contact
 
 If you’d like to discuss a project, idea, or just want to connect, feel free to reach out!
 
--   **Email:** [Email](mailto:alok421yadav@gmail.com)
+-   **Email:** [Email](mailto:yalok6321@gmail.com)
 -   **LinkedIn:** [alok-x0s1](https://www.linkedin.com/in/alok-x0s1/)
--   **Twitter:** [x](https://x.com/mr_x0s1)
+-   **Twitter:** [x](https://x.com/alokdotcom)
 
 ---
 
-Thank you for visiting my portfolio!
+Thank you for visiting my portfolio.

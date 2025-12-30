@@ -721,6 +721,38 @@ export const abandonedProjects = [
 		githubLink: "https://github.com/alok-x0s1/money-map",
 		liveLink: "https://moneymap-alok.vercel.app",
 		date: "2025-02-17",
+		tags: [
+			{
+				id: 1,
+				name: "Next.js",
+				path: "/assets/logos/next-js.svg",
+			},
+			{
+				id: 2,
+				name: "Typescript",
+				path: "/assets/logos/typescript.svg",
+			},
+			{
+				id: 3,
+				name: "Tailwind css",
+				path: "/assets/logos/tailwind-css.svg",
+			},
+			{
+				id: 4,
+				name: "Zod",
+				path: "/assets/logos/zod.svg",
+			},
+			{
+				id: 5,
+				name: "Shadcn",
+				path: "/assets/logos/shadcn.svg",
+			},
+			{
+				id: 6,
+				name: "Vercel",
+				path: "/assets/logos/vercel.svg",
+			},
+		],
 	},
 	{
 		id: 2,
@@ -730,6 +762,38 @@ export const abandonedProjects = [
 		githubLink: "https://github.com/alok-x0s1/emageXpert",
 		liveLink: "https://emagexpert.vercel.app",
 		date: "2024-10-19",
+		tags: [
+			{
+				id: 1,
+				name: "Next.js",
+				path: "/assets/logos/next-js.svg",
+			},
+			{
+				id: 2,
+				name: "Typescript",
+				path: "/assets/logos/typescript.svg",
+			},
+			{
+				id: 3,
+				name: "Tailwind css",
+				path: "/assets/logos/tailwind-css.svg",
+			},
+			{
+				id: 4,
+				name: "Framer motion",
+				path: "/assets/logos/framer-motion.svg",
+			},
+			{
+				id: 5,
+				name: "Shadcn",
+				path: "/assets/logos/shadcn.svg",
+			},
+			{
+				id: 6,
+				name: "Vercel",
+				path: "/assets/logos/vercel.svg",
+			},
+		],
 	},
 	{
 		id: 3,
@@ -738,6 +802,33 @@ export const abandonedProjects = [
 			"A Next.js project focused on backend development, featuring user authentication and email verification functionality. This app allows users to sign up, log in, verify their email addresses, and manage their profiles securely.",
 		githubLink: "https://github.com/alok-x0s1/next-auth",
 		date: "2024-08-08",
+		tags: [
+			{
+				id: 1,
+				name: "Next.js",
+				path: "/assets/logos/next-js.svg",
+			},
+			{
+				id: 2,
+				name: "Typescript",
+				path: "/assets/logos/typescript.svg",
+			},
+			{
+				id: 3,
+				name: "Tailwind css",
+				path: "/assets/logos/tailwind-css.svg",
+			},
+			{
+				id: 4,
+				name: "MongoDB",
+				path: "/assets/logos/mongodb.svg",
+			},
+			{
+				id: 5,
+				name: "Jwt",
+				path: "/assets/logos/jwt.svg",
+			},
+		],
 	},
 	{
 		id: 4,
@@ -747,6 +838,38 @@ export const abandonedProjects = [
 		githubLink: "https://github.com/alok-x0s1/harmony-hub",
 		liveLink: "https://harmony-hub-alok.vercel.app",
 		date: "2024-05-31",
+		tags: [
+			{
+				id: 1,
+				name: "Next.js",
+				path: "/assets/logos/next-js.svg",
+			},
+			{
+				id: 2,
+				name: "Typescript",
+				path: "/assets/logos/typescript.svg",
+			},
+			{
+				id: 3,
+				name: "Tailwind css",
+				path: "/assets/logos/tailwind-css.svg",
+			},
+			{
+				id: 4,
+				name: "Framer motion",
+				path: "/assets/logos/framer-motion.svg",
+			},
+			{
+				id: 5,
+				name: "Aceternity",
+				path: "/assets/logos/aceternity.svg",
+			},
+			{
+				id: 6,
+				name: "Vercel",
+				path: "/assets/logos/vercel.svg",
+			},
+		],
 	},
 	{
 		id: 5,
@@ -755,6 +878,38 @@ export const abandonedProjects = [
 			"A real-time chatting application built using WebSocket. This project is divided into two main sections: the frontend and the backend. The frontend provides a user-friendly interface for creating chat rooms and sending messages, while the backend handles the real-time communication between multiple users.",
 		githubLink: "https://github.com/alok-x0s1/learning-ws",
 		date: "2024-10-08",
+		tags: [
+			{
+				id: 1,
+				name: "Vite",
+				path: "/assets/logos/vite-js.svg",
+			},
+			{
+				id: 2,
+				name: "Typescript",
+				path: "/assets/logos/typescript.svg",
+			},
+			{
+				id: 3,
+				name: "Tailwind css",
+				path: "/assets/logos/tailwind-css.svg",
+			},
+			{
+				id: 4,
+				name: "Express.js",
+				path: "/assets/logos/express-js.svg",
+			},
+			{
+				id: 5,
+				name: "MongoDB",
+				path: "/assets/logos/mongodb.svg",
+			},
+			{
+				id: 6,
+				name: "Socket.io",
+				path: "/assets/logos/socket-io.svg",
+			},
+		],
 	},
 	{
 		id: 6,
@@ -763,6 +918,48 @@ export const abandonedProjects = [
 			"A full-featured To-Do app built with Node.js, Express, MongoDB, React, and Tailwind CSS. Includes task creation, updates, deletions, completion marking, and user authentication.",
 		githubLink: "https://github.com/alok-x0s1/todo-fy",
 		date: "2024-07-02",
+		tags: [
+			{
+				id: 1,
+				name: "Vite",
+				path: "/assets/logos/vite-js.svg",
+			},
+			{
+				id: 2,
+				name: "Javascript",
+				path: "/assets/logos/javascript.svg",
+			},
+			{
+				id: 3,
+				name: "Tailwind css",
+				path: "/assets/logos/tailwind-css.svg",
+			},
+			{
+				id: 4,
+				name: "React router",
+				path: "/assets/logos/react-router.svg",
+			},
+			{
+				id: 5,
+				name: "React redux",
+				path: "/assets/logos/react-redux.svg",
+			},
+			{
+				id: 6,
+				name: "Express.js",
+				path: "/assets/logos/express-js.svg",
+			},
+			{
+				id: 7,
+				name: "MongoDB",
+				path: "/assets/logos/mongodb.svg",
+			},
+			{
+				id: 8,
+				name: "Dot env",
+				path: "/assets/logos/dot-env.svg",
+			},
+		],
 	},
 	{
 		id: 7,
@@ -771,6 +968,43 @@ export const abandonedProjects = [
 			"A simple yet powerful backend for a task management system, built using Express, Prisma, PostgreSQL, and TypeScript. This project allows users to manage projects, assign tasks, and track progress, while ensuring proper role-based access control.",
 		githubLink: "https://github.com/alok-x0s1/learning-prisma",
 		date: "2024-10-12",
+		tags: [
+			{
+				id: 1,
+				name: "Node.js",
+				path: "/assets/logos/node-js.svg",
+			},
+			{
+				id: 2,
+				name: "Express.js",
+				path: "/assets/logos/express-js.svg",
+			},
+			{
+				id: 3,
+				name: "PostgreSql",
+				path: "/assets/logos/postgresql.svg",
+			},
+			{
+				id: 4,
+				name: "Prisma",
+				path: "/assets/logos/prisma.svg",
+			},
+			{
+				id: 5,
+				name: "Zod",
+				path: "/assets/logos/zod.svg",
+			},
+			{
+				id: 6,
+				name: "Jwt",
+				path: "/assets/logos/jwt.svg",
+			},
+			{
+				id: 7,
+				name: "Dot env",
+				path: "/assets/logos/dot-env.svg",
+			},
+		],
 	},
 	{
 		id: 8,
@@ -780,6 +1014,28 @@ export const abandonedProjects = [
 		githubLink: "https://github.com/alok-x0s1/currency-convertor",
 		liveLink: "https://currency-convertor-alok.vercel.app",
 		date: "2024-05-11",
+		tags: [
+			{
+				id: 1,
+				name: "Vite",
+				path: "/assets/logos/vite-js.svg",
+			},
+			{
+				id: 2,
+				name: "Javascript",
+				path: "/assets/logos/javascript.svg",
+			},
+			{
+				id: 3,
+				name: "Tailwind css",
+				path: "/assets/logos/tailwind-css.svg",
+			},
+			{
+				id: 4,
+				name: "Vercel",
+				path: "/assets/logos/vercel.svg",
+			},
+		],
 	},
 	{
 		id: 9,
@@ -789,6 +1045,33 @@ export const abandonedProjects = [
 		githubLink: "https://github.com/alok-x0s1/smart-dine-menu",
 		liveLink: "https://smartdinemenu.vercel.app",
 		date: "2025-02-22",
+		tags: [
+			{
+				id: 1,
+				name: "Vite",
+				path: "/assets/logos/vite-js.svg",
+			},
+			{
+				id: 2,
+				name: "Typescript",
+				path: "/assets/logos/typescript.svg",
+			},
+			{
+				id: 3,
+				name: "Tailwind css",
+				path: "/assets/logos/tailwind-css.svg",
+			},
+			{
+				id: 4,
+				name: "React router",
+				path: "/assets/logos/react-router.svg",
+			},
+			{
+				id: 5,
+				name: "Vercel",
+				path: "/assets/logos/vercel.svg",
+			},
+		],
 	},
 ];
 

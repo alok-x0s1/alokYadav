@@ -27,27 +27,29 @@ const Project = ({
 			whileTap="tap"
 			variants={cardVariants}
 		>
-			<div className="text-xs text-foreground/75">
-				{date ? (
-					<time
-						className="text-foreground/75"
-						dateTime={new Date(date).toISOString()}
-					>
-						{formatDate(date, "formatted")}
-					</time>
-				) : (
-					<span>SOON</span>
-				)}
-			</div>
-			<h2 className="text-2xl text-foreground font-medium leading-[0.95]">
-				{title}
-			</h2>
+			<div className="flex-1 flex flex-col gap-2.5">
+				<div className="text-xs text-foreground/75">
+					{date ? (
+						<time
+							className="text-foreground/75"
+							dateTime={new Date(date).toISOString()}
+						>
+							{formatDate(date, "formatted")}
+						</time>
+					) : (
+						<span>SOON</span>
+					)}
+				</div>
+				<h2 className="text-2xl text-foreground font-medium leading-[0.95]">
+					{title}
+				</h2>
 
-			<p className="text-foreground/80">{description}</p>
-			<div className="flex flex-wrap items-center gap-2 md:gap-4 text-purple text-sm">
-				{tags.map((tag) => (
-					<p key={tag.id}>{tag.name}</p>
-				))}
+				<p className="text-foreground/80">{description}</p>
+				<div className="flex flex-wrap items-center gap-2 md:gap-4 text-purple text-sm">
+					{tags.map((tag) => (
+						<p key={tag.id}>{tag.name}</p>
+					))}
+				</div>
 			</div>
 
 			<div className="flex gap-5 justify-start items-center text-end mt-3">

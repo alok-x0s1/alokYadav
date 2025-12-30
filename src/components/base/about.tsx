@@ -12,7 +12,7 @@ const AboutBento = () => {
 
 	return (
 		<section className="about" id="about">
-			<h2 className="text-heading text-start mt-2">
+			<h2 className="text-heading text-start">
 				About <span className="text-purple">Me</span>
 			</h2>
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-6">

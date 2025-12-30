@@ -10,7 +10,7 @@ const Resume = () => {
 			<div className="flex items-start justify-center min-h-screen mx-auto pt-24">
 				<div className="flex flex-col w-full gap-20">
 					<section className="resume relative" id="resume">
-						{/* <h2 className="text-heading text-start mt-2">
+						{/* <h2 className="text-heading text-start">
 							My <span className="text-purple">Resume</span>
 						</h2> */}
 						<SvgScroll />

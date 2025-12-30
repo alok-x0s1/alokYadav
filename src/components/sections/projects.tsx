@@ -10,7 +10,7 @@ import {
 	javascriptProjects,
 } from "@/constants";
 import ProjectList from "../common/project-list";
-import { LayoutGrid, TextAlignStart } from "lucide-react";
+import { CornerDownRight, LayoutGrid, TextAlignStart } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { ProjectGrid } from "../common/project-grid";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
@@ -51,7 +51,7 @@ const Projects = () => {
 			className="relative projects pb-20"
 			id="projects"
 		>
-			<div className="flex justify-between items-center mt-2">
+			<div className="flex justify-between items-center">
 				<h2 className="text-heading text-start">
 					Featured <span className="text-purple">Projects</span>
 				</h2>
@@ -167,6 +167,16 @@ const Projects = () => {
 					)
 			)}
 			{mode === "grid" && <ProjectGrid projects={javascriptProjects} />}
+
+			<button
+				className="mt-3 text-lg cursor-pointer flex gap-2 items-center"
+				onClick={() => router.push("/projects/dumpyard")}
+			>
+				<CornerDownRight size={18} color="var(--color-purple)" />{" "}
+				<span className="text-base hover:underline underline-offset-2">
+					Enter dumpyard
+				</span>
+			</button>
 
 			{preview && (
 				<motion.img

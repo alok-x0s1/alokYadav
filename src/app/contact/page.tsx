@@ -30,7 +30,7 @@ export default function Contact() {
 		<div className="bg-background flex flex-col min-h-screen">
 			<Navigation current="contact" />
 			<div className="container flex flex-1 h-full flex-col px-4 md:px-5 pt-24 gap-6">
-				<h2 className="text-heading text-start mt-2">
+				<h2 className="text-heading text-start">
 					Contact <span className="text-purple">Me</span>
 				</h2>
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto sm:mt-0 sm:grid-cols-3 lg:gap-12">
