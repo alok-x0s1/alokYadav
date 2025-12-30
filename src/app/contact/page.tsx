@@ -19,9 +19,9 @@ const socials = [
 	},
 	{
 		icon: <Gitlab size={20} />,
-		href: "https://gitlab.com/mr_x0s1",
+		href: "https://gitlab.com/alok-x0s1",
 		label: "Gitlab",
-		handle: "mr_x0s1",
+		handle: "alok-x0s1",
 	},
 ];
 
@@ -35,7 +35,7 @@ export default function Contact() {
 				</h2>
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto sm:mt-0 sm:grid-cols-3 lg:gap-12">
 					{socials.map((s) => (
-						<Card key={s.handle}>
+						<Card key={s.label}>
 							<Link
 								href={s.href}
 								target="_blank"

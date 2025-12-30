@@ -13,40 +13,61 @@ export default async function Home() {
 	const visitCount = formatCount(count);
 
 	return (
-		<div className="flex flex-col justify-center md:items-center w-screen h-screen overflow-hidden bg-primaryBgColor p-4">
-			<div className="absolute top-2 right-4 text-foreground hover:text-purple duration-300 animate-fade-in">
-				<Eye className="inline-block" size={16} />
-				<span className="text-sm ml-1">{visitCount}</span>
-			</div>
+		<>
+			<div className="flex flex-col justify-center md:items-center w-screen h-screen overflow-hidden bg-background p-4">
+				<div className="absolute top-2 right-4 text-foreground hover:text-purple duration-300 animate-fade-in">
+					<Eye className="inline-block" size={16} />
+					<span className="text-sm ml-1">{visitCount}</span>
+				</div>
 
-			<div className="w-full lg:w-2/3">
-				<Navbar />
+				<div className="w-full lg:w-2/3">
+					<Navbar />
 
-				<AnimatedText
-					text="alokYadav"
-					className="py-3.5 z-10 text-7xl font-display sm:text-8xl md:text-9xl whitespace-nowrap"
-				/>
+					<AnimatedText
+						text="alokYadav"
+						className="py-3.5 z-10 text-7xl font-display sm:text-8xl md:text-9xl whitespace-nowrap"
+					/>
 
-				<div className="flex flex-col animate-fade-in text-primaryTextColor">
-					<h2 className="text-base sm:text-lg">
-						<span className="text-purple tracking-wider font-display">
-							Full Stack Developer
-						</span>{" "}
-						who loves creating beautiful and functional digital
-						experiences, has a good eye for design, enjoys coding,
-						and specializes in turning ideas into engaging websites
-						with smooth interactions.
-					</h2>
+					<div className="flex flex-col animate-fade-in text-primaryTextColor">
+						<h2 className="text-base sm:text-lg">
+							<span className="text-purple tracking-wider font-display">
+								Full Stack Developer
+							</span>{" "}
+							who loves creating beautiful and functional digital
+							experiences, has a good eye for design, enjoys
+							coding, and specializes in turning ideas into
+							engaging websites with smooth interactions.
+						</h2>
 
-					<p className="text-sm sm:text-lg mt-6 cursor-pointer w-fit">
-						<Link href="/about">
-							LEARN MORE ABOUT
-							<span className="text-purple font-bold"> ME </span>
-						</Link>
-						!
-					</p>
+						<p className="text-sm sm:text-lg mt-6 cursor-pointer w-fit">
+							<Link href="/about">
+								LEARN MORE ABOUT
+								<span className="text-purple font-bold">
+									{" "}
+									ME{" "}
+								</span>
+							</Link>
+							!
+						</p>
+					</div>
 				</div>
 			</div>
-		</div>
+			<div className="sr-only">
+				<span>Alok Yadav</span>
+
+				<p>
+					I’m Alok Yadav (also known as <strong>alokYadav</strong>,
+					<strong>yalok</strong> and
+					<strong> alok-x0s1</strong>), a Full Stack Developer focused
+					on building modern, performant web applications using
+					Next.js and TypeScript.
+				</p>
+
+				<p>
+					Portfolio:{" "}
+					<a href="https://yalok.vercel.app">yalok.vercel.app</a>
+				</p>
+			</div>
+		</>
 	);
 }

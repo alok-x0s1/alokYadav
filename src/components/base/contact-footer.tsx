@@ -63,8 +63,8 @@ const ContactFooter = () => {
 				))}
 			</div>
 			<p className="text-sm sm:text-base mt-3 text-foreground/95">
-				&copy; {new Date().getFullYear()} alokYadav. All rights
-				reserved.
+				&copy; {new Date().getFullYear()} Alok Yadav {"(alok-x0s1)"}.
+				All rights reserved.
 			</p>
 		</motion.footer>
 	);

@@ -25,7 +25,9 @@ const AboutBento = () => {
 						className="absolute scale-[1.75] -right-20 -top-4 md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
 					/>
 					<div className="z-10">
-						<p className="headtext">Hi, I&apos;m alokYadav</p>
+						<p className="headtext">
+							Hi, I&apos;m alokYadav {"(alok-x0s1)"}
+						</p>
 						<p className="subtext">
 							Over the last 2 years, I have strengthened my
 							frontend and backend development skills through

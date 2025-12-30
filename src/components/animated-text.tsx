@@ -1,31 +1,21 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 
 const quote = {
-	initial: {
-		opacity: 1,
-	},
+	initial: { opacity: 1 },
 	animate: {
 		opacity: 1,
-		transition: {
-			delay: 0.5,
-			staggerChildren: 0.08,
-		},
+		transition: { delay: 0.5, staggerChildren: 0.08 },
 	},
 };
 
 const singleWord = {
-	initial: {
-		opacity: 0,
-		y: 50,
-	},
+	initial: { opacity: 0, y: 50 },
 	animate: {
 		opacity: 1,
 		y: 0,
-		transition: {
-			duration: 1,
-		},
+		transition: { duration: 1 },
 	},
 };
 
@@ -34,23 +24,26 @@ const AnimatedText = ({
 	className = "",
 }: {
 	text: string;
-	className: string;
+	className?: string;
 }) => {
+	const shouldReduceMotion = useReducedMotion();
+
 	return (
 		<div className="w-full flex justify-start items-center text-start overflow-hidden">
 			<motion.h1
+				aria-label={text}
 				className={`inline-block w-full font-bold ${className}`}
-				variants={quote}
+				variants={shouldReduceMotion ? undefined : quote}
 				initial="initial"
 				animate="animate"
 			>
-				{text.split("").map((word, index) => (
+				{text.split("").map((char, index) => (
 					<motion.span
-						key={word + "-" + index}
+						key={char + "-" + index}
 						className="inline-block text-shadow-xs text-shadow-purple"
-						variants={singleWord}
+						variants={shouldReduceMotion ? undefined : singleWord}
 					>
-						{word}
+						{char}
 					</motion.span>
 				))}
 			</motion.h1>
